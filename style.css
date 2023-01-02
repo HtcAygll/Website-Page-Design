@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #35424a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem;
+  height: 8vh;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav__right--home,
+.nav__left--clarus {
+  color: #954a75;
+}
+
+.nav__left {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+nav.nav__right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+}
+
+main {
+}
+
+.main__top {
+  background-image: url(./img/showcase.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 3rem;
+  border-top: 3px solid #954a75;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  height: 40vh;
+  
+}
+
+.main__baslik {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+
+.main__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: white;
+}
+
+div.main__bottom--right input {
+  padding: 5px;
+}
+
+.button {
+  background-color: orangered;
+  color: white;
+  border: none;
+}
+
+.main__bottom--left {
+ font-weight: bold;
+ font-size: 1.1rem;
+}
+
+section {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  padding: 2rem 0.5rem;
+  height: 10%;
+}
+
+.section__left,.section__center, 
+.section__right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+
+} 
+
+section img {
+  width: 60px;
+}
+
+section h4 {
+    padding: 1rem 0;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    
+}
+
+footer p {
+    color: white;
+}
